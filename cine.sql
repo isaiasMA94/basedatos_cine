@@ -1,7 +1,7 @@
 USE Pelicula;
 
 CREATE TABLE Director(
-idDirector char(09),
+idDirector char(05),
 nombre varchar(15),
 PRIMARY KEY(idDirector)
 );
