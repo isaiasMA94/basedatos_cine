@@ -68,7 +68,10 @@ FOREIGN KEY(idPeli) REFERENCES Pelicula(idPeli),
 FOREIGN KEY(id_productora) REFERENCES Productora(id_productora)
 );
 
+
 INSERT INTO Director VALUES('1', 'maycol');
+INSERT INTO Director VALUES('2', 'juancarlos');
+INSERT INTO Director VALUES('4', 'victor'),('5', 'miguel');
 INSERT INTO Pelicula VALUES('1', '1', 'transformers', '2014-01-24', 'estados unidos');
 INSERT INTO Ejemplar VALUES('1', '1', 'bueno');
 INSERT INTO Actor VALUES('01', 'brad pitt', 'jack', 'romantico');
@@ -78,6 +81,7 @@ SELECT*FROM Director;
 SELECT*FROM Pelicula;
 SELECT*FROM Ejemplar;
 SELECT*FROM Actor;
+SELECT*FROM Productora;
 SELECT*FROM Productora;
 
 
